@@ -1,0 +1,228 @@
+[
+  {
+    "Id": "44415fe5-5a2c-49c1-ad25-4331a313ea82",
+    "FirstName": "Mathew",
+    "LastName": "Joe",
+    "UserName": "robertsonhart@maaluba.com",
+    "Email": "robertsonhart@maaluba.com",
+    "PhoneNumber": "+234 8175023764",
+    "Password": "Janet@1234",
+    "Address": null,
+    "address": "521 Vandervoort Place, Hayden, Mississippi",
+    "Gender": "female",
+    "Avatar": "https://generated.photos/face-generator/62",
+    "IsActive": false,
+    "Blogs": [
+      {
+        "Id": "95592e44-18e7-4fa5-aa61-893de7b2c005",
+        "Title": "Mrs",
+        "Article": "Labore eu tempor fugiat qui, Veniam laboris minim culpa ut. ",
+        "Thumbnail": "Veniam fugiat eu tempor",
+        "IsActive": true,
+        "CreatedAt": "2013-03-19"
+      },
+      {
+        "Id": "685c9d1b-ea90-406c-9a89-c3ab4ccff1fe",
+        "Title": "Mr",
+        "Article": "Labore minim culpa ut eu fugiat qui. Veniam tempor laboris",
+        "Thumbnail": "Tempor eu laboris fugiat veniam",
+        "IsActive": false,
+        "CreatedAt": "2021-03-28"
+      },
+      {
+        "Id": "f01b5e75-a05a-44c3-8571-b21cd0c083d4",
+        "Title": "Mrs",
+        "Article": "Labore eu tempor fugiat qui, Veniam laboris minim culpa ut. ",
+        "Thumbnail": "Veniam fugiat eu tempor",
+        "IsActive": true,
+        "CreatedAt": "2013-03-19"
+      },
+      {
+        "Id": "d0a01a3f-6a60-4dc8-acc9-4e7d842e1611",
+        "Title": "Mr",
+        "Article": "Labore minim culpa ut eu fugiat qui. Veniam tempor laboris",
+        "Thumbnail": "Tempor eu laboris fugiat veniam",
+        "IsActive": false,
+        "CreatedAt": "2021-03-28"
+      },
+      {
+        "Id": "ae65e92f-63df-4945-b304-3644933abb68",
+        "Title": "Mrs",
+        "Article": "Labore eu tempor fugiat qui, Veniam laboris minim culpa ut. ",
+        "Thumbnail": "Veniam fugiat eu tempor",
+        "IsActive": true,
+        "CreatedAt": "2013-03-19"
+      },
+      {
+        "Id": "60590b4c-d96a-4d76-8918-e3254c519c33",
+        "Title": "Mr",
+        "Article": "Labore minim culpa ut eu fugiat qui. Veniam tempor laboris",
+        "Thumbnail": "Tempor eu laboris fugiat veniam",
+        "IsActive": false,
+        "CreatedAt": "2021-03-28"
+      },
+      {
+        "Id": "2f16eb87-9537-456f-93cf-e784f1aef5c2",
+        "Title": "Mrs",
+        "Article": "Labore eu tempor fugiat qui, Veniam laboris minim culpa ut. ",
+        "Thumbnail": "Veniam fugiat eu tempor",
+        "IsActive": true,
+        "CreatedAt": "2013-03-19"
+      },
+      {
+        "Id": "67bcb168-2f94-4900-b6a7-01324b2a5723",
+        "Title": "Mr",
+        "Article": "Labore minim culpa ut eu fugiat qui. Veniam tempor laboris",
+        "Thumbnail": "Tempor eu laboris fugiat veniam",
+        "IsActive": false,
+        "CreatedAt": "2021-03-28"
+      },
+      {
+        "Id": "dadf3d06-2366-4ff6-b5ba-56d8bacf73f4",
+        "Title": "Mrs",
+        "Article": "Labore eu tempor fugiat qui, Veniam laboris minim culpa ut. ",
+        "Thumbnail": "Veniam fugiat eu tempor",
+        "IsActive": true,
+        "CreatedAt": "2013-03-19"
+      },
+      {
+        "Id": "aee489e0-f305-496c-a751-586a357c784d",
+        "Title": "Mr",
+        "Article": "Labore minim culpa ut eu fugiat qui. Veniam tempor laboris",
+        "Thumbnail": "Tempor eu laboris fugiat veniam",
+        "IsActive": false,
+        "CreatedAt": "2021-03-28"
+      }
+    ]
+  },
+  {
+    "Id": "7dfa1ecc-2230-444e-9c7e-955119e42ff5",
+    "FirstName": "Katheryn",
+    "LastName": "Dickerson",
+    "UserName": "katheryndickerson@baluba.com",
+    "Email": "katheryndickerson@baluba.com",
+    "PhoneNumber": "+234 (830) 449-3554",
+    "Password": "James@1234",
+    "address": "323 Autumn Avenue, Hartsville/Hartley, Nevada",
+    "Gender": "female",
+    "Avatar": "https://generated.photos/face-generator/62",
+    "IsActive": false
+  },
+  {
+    "Id": "27e9e275-adde-4b6d-881c-6397b46a9020",
+    "FirstName": "Downs",
+    "LastName": "Grant",
+    "UserName": "downsgrant@baluba.com",
+    "Email": "downsgrant@baluba.com",
+    "PhoneNumber": "+234 (891) 443-2180",
+    "Password": "Paul@1234",
+    "address": "619 Cooke Court, Bawcomville, Federated States Of Micronesia",
+    "Gender": "female",
+    "Avatar": "https://generated.photos/face-generator/62",
+    "IsActive": true
+  },
+  {
+    "Id": "f40276cc-ce31-474a-8a7e-a697ca82574b",
+    "FirstName": "Sharpe",
+    "LastName": "Woods",
+    "UserName": "sharpewoods@baluba.com",
+    "Email": "sharpewoods@baluba.com",
+    "PhoneNumber": "+234 (888) 425-3365",
+    "Password": "Emma@1234",
+    "address": "575 Seeley Street, Bagtown, New Jersey",
+    "Gender": "female",
+    "Avatar": "https://generated.photos/face-generator/62",
+    "IsActive": false
+  },
+  {
+    "Id": "d7c29369-929b-4426-b54d-04b5f1560b50",
+    "FirstName": "Mindy",
+    "LastName": "Leon",
+    "UserName": "mindyleon@baluba.com",
+    "Email": "mindyleon@baluba.com",
+    "PhoneNumber": "+234 (821) 440-3209",
+    "Password": "Levine@1234",
+    "address": "155 Blake Avenue, Crisman, Arizona",
+    "Gender": "male",
+    "Avatar": "https://generated.photos/face-generator/62",
+    "IsActive": false
+  },
+  {
+    "Id": "794d242b-7669-4c61-a5e2-b6ab35f4a8d6",
+    "FirstName": "Robertson",
+    "LastName": "Hart",
+    "UserName": "robertsonhart@baluba.com",
+    "Email": "robertsonhart@baluba.com",
+    "PhoneNumber": "+234 (818) 412-3764",
+    "Password": "Naomi@1234",
+    "address": "461 Pioneer Street, Grazierville, Palau",
+    "Gender": "female",
+    "Avatar": "https://generated.photos/face-generator/62",
+    "IsActive": false
+  },
+  {
+    "Id": "2bf60ad0-f81b-4e9e-b9f6-5b7755d4d3f0",
+    "FirstName": "Deborah",
+    "LastName": "Dickerson",
+    "UserName": "katheryndickerson@paluba.com",
+    "Email": "katheryndickerson@paluba.com",
+    "PhoneNumber": "+234 8304493774",
+    "Password": "Tina@1234",
+    "address": "873 Lincoln Place, Nash, Vermont",
+    "Gender": "female",
+    "Avatar": "https://generated.photos/face-generator/62",
+    "IsActive": false
+  },
+  {
+    "Id": "8dcc5008-7e40-496e-b81f-cb731c352d0c",
+    "FirstName": "Downson",
+    "LastName": "Grant",
+    "UserName": "downsgrant@laluba.com",
+    "Email": "downsgrant@laluba.com",
+    "PhoneNumber": "+234 8914432111",
+    "Password": "Paulin@1234",
+    "address": "636 Dumont Avenue, Alfarata, New Mexico",
+    "Gender": "female",
+    "Avatar": "https://generated.photos/face-generator/62",
+    "IsActive": true
+  },
+  {
+    "Id": "eacdea38-c41b-434b-8f4d-b0974f100ded",
+    "FirstName": "Sharpe",
+    "LastName": "John",
+    "UserName": "sharpewoods@waluba.com",
+    "Email": "sharpewoods@waluba.com",
+    "PhoneNumber": "+234 8884893365",
+    "Password": "Emmanuel@1234",
+    "address": "838 Garden Place, Cumminsville, Montana",
+    "Gender": "female",
+    "Avatar": "https://generated.photos/face-generator/62",
+    "IsActive": false
+  },
+  {
+    "Id": "0b2d859b-8de2-48b1-afc1-270679270ccf",
+    "FirstName": "Mendy",
+    "LastName": "Leon",
+    "UserName": "mindyleon@kaluba.com",
+    "Email": "mindyleon@kaluba.com",
+    "PhoneNumber": "+234 8218503209",
+    "Password": "Lev@1234",
+    "address": "375 Montauk Avenue, Defiance, Alabama",
+    "Gender": "male",
+    "Avatar": "https://generated.photos/face-generator/62",
+    "IsActive": false
+  },
+  {
+    "Id": "2f05f94f-1d59-4078-ae13-0d39f068bb5d",
+    "FirstName": "Robertson",
+    "LastName": "Joe",
+    "UserName": "robertsonhart@daluba.com",
+    "Email": "robertsonhart@daluba.com",
+    "PhoneNumber": "+234 8180023764",
+    "Password": "Jane@1234",
+    "address": "359 Oakland Place, Walton, Puerto Rico",
+    "Gender": "female",
+    "Avatar": "https://generated.photos/face-generator/62",
+    "IsActive": false
+  }
+]

@@ -1,0 +1,1436 @@
+[
+  {
+    "Id": "77eec9f5-e767-409c-8fc2-8e1a254b3d7a",
+    "UserId": "7dfa1ecc-2230-444e-9c7e-955119e42ff5",
+    "Type": "Individual",
+    "BusinessEmail": "leasosa@baluba.com",
+    "BusinessPhoneNumber": "+234 8665858638",
+    "IsActivated": true,
+    "IdentityNumber": "81357404672",
+    "SocialMedia": "Facebook",
+    "CreatedAt": "2017-06-18",
+    "Locations": [
+      {
+        "Id": "f127bc19-2240-44c2-9f71-a241d3be4a68",
+        "Address": "320 Nassau Street, Grazierville, Illinois, 5425",
+        "State": "Kogi",
+        "Latitude": 34.536789,
+        "Longitude": 41.032718,
+        "CreatedAt": "2016-01-19"
+      },
+      {
+        "Id": "705134e1-fb91-46cd-ac63-b08da0b1cba4",
+        "Address": "774 Paerdegat Avenue, Sunnyside, West Virginia, 3868",
+        "State": "Imo",
+        "Latitude": 58.173531,
+        "Longitude": 99.827934,
+        "CreatedAt": "2020-01-11"
+      }
+    ],
+    "Cars": [
+      {
+        "Id": "0faeb3c2-325b-4c08-bc4c-f00a07f4bd88",
+        "Model": "Suv",
+        "YearOfMan": "2020",
+        "PlateNumber": "FJK-164",
+        "ChasisNumber": "348105",
+        "Color": "brown",
+        "TypeOfCar": "Toyota Corolla",
+        "Mileage": 2,
+        "Price": 2.0,
+        "UnitOfPrice": "$2/mile",
+        "IsVerify": true,
+        "CreatedAt": "2011-02-14",
+        "CarDetails": {
+          "Id": "16f1d939-fde8-4223-ab1b-2ffeaa87dafe",
+          "TypeOfSeat": "Leather",
+          "SunRoof": true,
+          "Bluetooth": false,
+          "NavigationSystem": false,
+          "AirCondition": false,
+          "RemoteStart": false,
+          "BackupCamera": false,
+          "ThirdRowSeating": false,
+          "Driver": false,
+          "CarPlay": false,
+          "IsTrack": false,
+          "CreatedAt": "2014-11-02"
+        },
+        "Images": [
+          {
+            "Id": "61383144-9a0c-41c5-ae14-d0291c6a0c0a",
+            "IsFeature": true,
+            "ImageUrl": "https://res.cloudinary.com/djrjrb0a4/image/upload/v1651504339/Suv3_wghcyn.jpg",
+            "CreatedAt": "2016-09-02"
+          },
+          {
+            "Id": "975842eb-bc5a-40b3-8d22-e351c489dcfc",
+            "IsFeature": false,
+            "ImageUrl": "https://res.cloudinary.com/djrjrb0a4/image/upload/v1651504337/Lexus2_tjjmwl.jpg",
+            "CreatedAt": "2016-08-02"
+          }
+        ],
+        "Offers": [
+          {
+            "Id": "befb0fd9-76f4-41d5-aa08-0004eb0d3eab",
+            "Discription": "Dolor fugiat fugiat mollit sit et sit dolore qui. Tempor irure.\r\n",
+            "Discount": 20.0,
+            "TypeOfOffer": "Money",
+            "IsActive": true,
+            "StartDate": "2015-04-04",
+            "EndDate": "2015-04-19",
+            "CreatedAt": "2015-04-01"
+          },
+          {
+            "Id": "d8e930a6-92b5-4f7a-ab8c-efccbbd42f48",
+            "Discription": "Eiusmod Culpa Lorem nisi nostrud fugiat. proident nostrud ea eu.\r\n",
+            "Discount": 15.0,
+            "TypeOfOffer": "Money",
+            "IsActive": true,
+            "StartDate": "2017-10-12",
+            "EndDate": "2017-10-28",
+            "CreatedAt": "2017-10-06"
+          }
+        ],
+        "Ratings": [
+          {
+            "Id": "7d702b71-6343-41bf-8243-e5a9842b3da3",
+            "Rating": 4,
+            "UserId": "2bf60ad0-f81b-4e9e-b9f6-5b7755d4d3f0",
+            "CreatedAt": "2019-04-06"
+          },
+          {
+            "Id": "1fdc0537-6f46-4f66-98b4-616e873c6e46",
+            "Rating": 2,
+            "UserId": "2bf60ad0-f81b-4e9e-b9f6-5b7755d4d3f0",
+            "CreatedAt": "2015-06-20"
+          },
+          {
+            "Id": "100a912c-f6af-41a6-a7b3-d9485af4fb18",
+            "Rating": 4,
+            "UserId": "2bf60ad0-f81b-4e9e-b9f6-5b7755d4d3f0",
+            "CreatedAt": "2015-10-03"
+          }
+        ],
+        "Comments": [
+          {
+            "Id": "b03725f9-e6de-45b1-87fd-e9cd7cf4bd3c",
+            "Comments": "Exercitation ullamco mollit dolore Lorem consectetur ea.\r\n",
+            "UserId": "2bf60ad0-f81b-4e9e-b9f6-5b7755d4d3f0",
+            "CreatedAt": "2021-03-28"
+          },
+          {
+            "Id": "2ab8c743-69fe-487e-8b87-1911faf3bade",
+            "Comments": "Fugiat excepteur nisi eu dolor qui qui proident dolor nisi.\r\n",
+            "UserId": "2bf60ad0-f81b-4e9e-b9f6-5b7755d4d3f0",
+            "CreatedAt": "2021-07-08"
+          }
+        ],
+        "Trips": [
+          {
+            "Id": "0d08d7cd-5abc-4220-b698-e5f67f29bde9",
+            "UserId": "2bf60ad0-f81b-4e9e-b9f6-5b7755d4d3f0",
+            "Status": "Pending",
+            "PickupDate": "2019-01-07",
+            "ReturnDate": "2019-01-21",
+            "CreatedAt": "2018-05-06",
+            "Transactions": {
+              "Id": "31d0b5b6-845f-4a39-ac77-6256cb32a3d6",
+              "Amount": 100.0,
+              "PaymentMethod": "Paystack",
+              "TransactionRef": "29bb9c2e-5e19-4e74-a4d6-540d35439fea",
+              "Status": "Successful",
+              "CreatedAt": "2016-04-25"
+            }
+          },
+          {
+            "Id": "49b4c731-e229-4713-917e-95add0409128",
+            "UserId": "2bf60ad0-f81b-4e9e-b9f6-5b7755d4d3f0",
+            "Status": "Done",
+            "PickupDate": "2019-04-07",
+            "ReturnDate": "2019-04-21",
+            "CreatedAt": "2018-12-06",
+            "Transactions": {
+              "Id": "de83c8f1-8007-442a-bc7b-edb38d267989",
+              "Amount": 150.0,
+              "PaymentMethod": "Flutterwave",
+              "TransactionRef": "29bb9c2e-5e19-4e74-a4d6-540d34239fea",
+              "Status": "Decline",
+              "CreatedAt": "2016-07-25"
+            }
+          }
+        ]
+      },
+      {
+        "Id": "d8232546-123d-471d-886c-35dc928e4f72",
+        "Model": "Bmw",
+        "YearOfMan": "2021",
+        "PlateNumber": "AG841K",
+        "ChasisNumber": "231007",
+        "Color": "blue",
+        "TypeOfCar": "Mercedes",
+        "Mileage": 3,
+        "Price": 4.0,
+        "UnitOfPrice": "$4/mile",
+        "IsVerify": true,
+        "CreatedAt": "2014-04-09",
+        "CarDetails": {
+          "Id": "2856734a-bb49-4367-a50b-4130a27a64bf",
+          "TypeOfSeat": "Leather",
+          "SunRoof": false,
+          "Bluetooth": true,
+          "NavigationSystem": false,
+          "AirCondition": false,
+          "RemoteStart": false,
+          "BackupCamera": true,
+          "ThirdRowSeating": true,
+          "Driver": false,
+          "CarPlay": false,
+          "IsTrack": true,
+          "CreatedAt": "2015-01-11"
+        },
+        "Images": [
+          {
+            "Id": "01d5fb66-07d6-40eb-b1cc-827854b76a18",
+            "IsFeature": false,
+            "ImageUrl": "https://res.cloudinary.com/djrjrb0a4/image/upload/v1651504337/Bmw_azcyi9.jpg",
+            "CreatedAt": "2018-05-23"
+          },
+          {
+            "Id": "48af0822-0dcc-451f-a118-f6f8498d6a52",
+            "IsFeature": false,
+            "ImageUrl": "https://res.cloudinary.com/djrjrb0a4/image/upload/v1651504337/Bugatti2_vbgtvk.jpg",
+            "CreatedAt": "2019-05-23"
+          }
+        ],
+        "Offers": [
+          {
+            "Id": "de60a8e3-a06c-4a16-96ca-6962c4da904e",
+            "Discription": "Sunt amet ipsum mollit reprehenderit quis adipisicing.\r\n",
+            "Discount": 25.0,
+            "TypeOfOffer": "Money",
+            "IsActive": false,
+            "StartDate": "2018-11-13",
+            "EndDate": "2018-12-07",
+            "CreatedAt": "2018-11-12"
+          },
+          {
+            "Id": "71afa95c-0fa4-4996-a9e7-3f1283a37137",
+            "Discription": "Minim labore culpa ut. Veniam laboris eu tempor fugiat qui.\r\n",
+            "Discount": 30.0,
+            "TypeOfOffer": "Money",
+            "IsActive": true,
+            "StartDate": "2021-07-18",
+            "EndDate": "2021-08-26",
+            "CreatedAt": "2021-07-06"
+          }
+        ],
+        "Ratings": [
+          {
+            "Id": "7d775f82-7d24-474c-971a-444c7f7d0c56",
+            "Rating": 3,
+            "UserId": "8dcc5008-7e40-496e-b81f-cb731c352d0c",
+            "CreatedAt": "2021-06-14"
+          },
+          {
+            "Id": "67bc6c5d-e681-48c1-bb2b-3da9c6560734",
+            "Rating": 1,
+            "UserId": "8dcc5008-7e40-496e-b81f-cb731c352d0c",
+            "CreatedAt": "2017-11-06"
+          }
+        ],
+        "Comments": [
+          {
+            "Id": "9d33643f-3e6e-4dc8-8b15-6834a48132e6",
+            "Comments": "Consequat laborum cupidatat sit aliqua duis sint nulla veniam non dolor ut.\r\n",
+            "UserId": "8dcc5008-7e40-496e-b81f-cb731c352d0c",
+            "CreatedAt": "2017-07-21"
+          },
+          {
+            "Id": "569431e5-39e0-4d09-9fff-55270008b7cd",
+            "Comments": "Cupidatat velit officia irure aliquip nostrud laboris fugiat dolore dolordeserunt esse eu.\r\n",
+            "UserId": "8dcc5008-7e40-496e-b81f-cb731c352d0c",
+            "CreatedAt": "2015-08-09"
+          }
+        ],
+        "Trips": [
+          {
+            "Id": "7497a7a6-f135-42fc-854d-b9e10eb566fd",
+            "UserId": "0b2d859b-8de2-48b1-afc1-270679270ccf",
+            "Status": "Done",
+            "PickupDate": "2016-03-21",
+            "ReturnDate": "2016-03-30",
+            "CreatedAt": "2016-03-16",
+            "Transactions": {
+              "Id": "07438928-a85b-4a2f-bf0d-8749c297e4e9",
+              "Amount": 200.0,
+              "PaymentMethod": "Paystack",
+              "TransactionRef": "29bb9c2e-5e19-4e74-a4d6-325d35439fea",
+              "Status": "Successful",
+              "CreatedAt": "2016-06-25"
+            }
+          },
+          {
+            "Id": "8dcc5008-7e40-496e-b81f-cb731c352d0c",
+            "UserId": "eacdea38-c41b-434b-8f4d-b0974f100ded",
+            "Status": "Cancelled",
+            "PickupDate": "2016-05-21",
+            "ReturnDate": "2016-05-30",
+            "CreatedAt": "2016-05-16",
+            "Transactions": {
+              "Id": "2cf58ceb-5e74-4055-91ae-39c2568d4305",
+              "Amount": 80.0,
+              "PaymentMethod": "Flutterwave",
+              "TransactionRef": "29bb9c2e-5e19-4e74-a4d6-810d35439fea",
+              "Status": "Successful",
+              "CreatedAt": "2014-04-25"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Id": "bd31c8aa-6824-4524-b780-61c11096cf7b",
+    "UserId": "27e9e275-adde-4b6d-881c-6397b46a9020",
+    "CompanyName": "Mercilin Cars",
+    "Type": "Company",
+    "BusinessEmail": "celestebattle@baluba.com",
+    "BusinessPhoneNumber": "+234 9684032306",
+    "IsActivated": false,
+    "IdentityNumber": "44199672103",
+    "SocialMedia": "Facebook",
+    "CreatedAt": "2019-06-18",
+    "Locations": [
+      {
+        "Id": "8a69e8a1-5915-42f9-91bb-7863bdc88ca4",
+        "Address": "281 Adler Place, Innsbrook, Iowa, 6160",
+        "State": "Lagos",
+        "Latitude": 9.00259,
+        "Longitude": 111.975312,
+        "CreatedAt": "2018-04-04"
+      },
+      {
+        "Id": "0c75e926-3ba7-4aa1-877e-32deac09da40",
+        "Address": "153 Brown Street, Williston, Louisiana, 3729",
+        "State": "Kano",
+        "Latitude": 49.448681,
+        "Longitude": 50.754443,
+        "CreatedAt": "2016-10-01"
+      }
+    ],
+    "Cars": [
+      {
+        "Id": "bd5096f6-867b-4a7f-9c87-a6c63b4b9690",
+        "Model": "Mercedes",
+        "YearOfMan": "2020",
+        "PlateNumber": "GYD328",
+        "ChasisNumber": "106297",
+        "Color": "brown",
+        "TypeOfCar": "Lexus",
+        "Mileage": 1,
+        "Price": 5.0,
+        "UnitOfPrice": "$5/mile",
+        "IsVerify": true,
+        "CreatedAt": "2011-02-14",
+        "CarDetails": {
+          "Id": "f96445e1-bd37-4c1f-9041-32b261d29802",
+          "TypeOfSeat": "Wool",
+          "SunRoof": true,
+          "Bluetooth": true,
+          "NavigationSystem": true,
+          "AirCondition": true,
+          "RemoteStart": true,
+          "BackupCamera": false,
+          "ThirdRowSeating": true,
+          "Driver": true,
+          "CarPlay": true,
+          "IsTrack": false,
+          "CreatedAt": "2015-10-05"
+        },
+        "Images": [
+          {
+            "Id": "93c71f34-5e54-418e-a113-cd4c0eed7823",
+            "IsFeature": false,
+            "ImageUrl": "https://res.cloudinary.com/djrjrb0a4/image/upload/v1651504337/Lexus2_tjjmwl.jpg",
+            "CreatedAt": "2017-03-22"
+          },
+          {
+            "Id": "713b0716-fc56-41e9-af1d-5ec99db5fda6",
+            "IsFeature": false,
+            "ImageUrl": "https://res.cloudinary.com/djrjrb0a4/image/upload/v1651504336/AudiA53_es49py.jpg",
+            "CreatedAt": "2012-03-22"
+          }
+        ],
+        "Offers": [
+          {
+            "Id": "7c68e8a4-76b7-44d9-9fb0-546ccc3be19b",
+            "Discription": "Dolor fugiat fugiat mollit sit et sit dolore qui. Tempor irure.\r\n",
+            "Discount": 20.0,
+            "TypeOfOffer": "Money",
+            "IsActive": true,
+            "StartDate": "2015-04-04",
+            "EndDate": "2015-04-19",
+            "CreatedAt": "2015-04-01"
+          },
+          {
+            "Id": "e4f24067-1fe8-441c-ab6d-da9731faa366",
+            "Discription": "Eiusmod Culpa Lorem nisi nostrud fugiat. proident nostrud ea eu.\r\n",
+            "Discount": 15.0,
+            "TypeOfOffer": "Money",
+            "IsActive": true,
+            "StartDate": "2017-10-12",
+            "EndDate": "2017-10-28",
+            "CreatedAt": "2017-10-06"
+          }
+        ],
+        "Ratings": [
+          {
+            "Id": "e52d548d-daca-49db-8374-ffd20eaa19a9",
+            "Rating": 2,
+            "UserId": "eacdea38-c41b-434b-8f4d-b0974f100ded",
+            "CreatedAt": "2015-06-20"
+          },
+          {
+            "Id": "c63da761-63a0-4a84-a370-cf1a8354b051",
+            "Rating": 4,
+            "UserId": "eacdea38-c41b-434b-8f4d-b0974f100ded",
+            "CreatedAt": "2015-10-03"
+          }
+        ],
+        "Comments": [
+          {
+            "Id": "fe592083-265f-4390-bbed-97a022c255ff",
+            "Comments": "Fugiat excepteur nisi eu dolor qui qui proident dolor nisi.\r\n",
+            "UserId": "eacdea38-c41b-434b-8f4d-b0974f100ded",
+            "CreatedAt": "2021-07-08"
+          },
+          {
+            "Id": "ead1cb3f-42c0-485c-ab26-c3fec10030a5",
+            "Comments": "Nostrud reprehenderit ipsum veniam laboris amet est incididunt commodo qui.\r\n",
+            "UserId": "eacdea38-c41b-434b-8f4d-b0974f100ded",
+            "CreatedAt": "2021-02-14"
+          }
+        ],
+        "Trips": [
+          {
+            "Id": "d2a20262-8dcb-4890-82e8-510ebd6334ef",
+            "UserId": "eacdea38-c41b-434b-8f4d-b0974f100ded",
+            "Status": "Pending",
+            "PickupDate": "2019-01-07",
+            "ReturnDate": "2019-01-21",
+            "CreatedAt": "2018-05-06",
+            "Transactions": {
+              "Id": "9047c6da-25d2-4540-8c03-94cdbf0f596c",
+              "Amount": 125.0,
+              "PaymentMethod": "Paystack",
+              "TransactionRef": "29bb9c2e-5e19-4e74-a4d6-540d35299fea",
+              "Status": "Successful",
+              "CreatedAt": "2016-04-12"
+            }
+          },
+          {
+            "Id": "7628a45e-2d7a-47c3-b977-f1e29e96ed95",
+            "UserId": "eacdea38-c41b-434b-8f4d-b0974f100ded",
+            "Status": "Done",
+            "PickupDate": "2017-01-07",
+            "ReturnDate": "2017-01-21",
+            "CreatedAt": "2017-05-06",
+            "Transactions": {
+              "Id": "8eddd037-1081-4fb2-8a43-1a50eb404c6f",
+              "Amount": 300.0,
+              "PaymentMethod": "Paystack",
+              "TransactionRef": "29bb9c2e-5e19-4e74-a4d6-540d67339fea",
+              "Status": "Decline",
+              "CreatedAt": "2016-01-25"
+            }
+          }
+        ]
+      },
+      {
+        "Id": "1b257a0a-1b67-4b6f-8fd4-db157303d3d8",
+        "Model": "Hyundai Elantra",
+        "YearOfMan": "2021",
+        "PlateNumber": "JKE365",
+        "ChasisNumber": "908712",
+        "Color": "Red",
+        "TypeOfCar": "Hyundai",
+        "Mileage": 6,
+        "Price": 5.0,
+        "UnitOfPrice": "$5/mile",
+        "IsVerify": true,
+        "CreatedAt": "2016-08-14",
+        "CarDetails": {
+          "Id": "0ab7112f-06f8-4976-8fe9-738407908c2c",
+          "TypeOfSeat": "Wool",
+          "SunRoof": true,
+          "Bluetooth": true,
+          "NavigationSystem": true,
+          "AirCondition": true,
+          "RemoteStart": true,
+          "BackupCamera": false,
+          "ThirdRowSeating": true,
+          "Driver": true,
+          "CarPlay": true,
+          "IsTrack": false,
+          "CreatedAt": "2015-11-05"
+        },
+        "Images": [
+          {
+            "Id": "9d1e127d-cabe-4fb1-9539-69c7696d358a",
+            "IsFeature": false,
+            "ImageUrl": "https://res.cloudinary.com/djrjrb0a4/image/upload/v1651504337/Lexus2_tjjmwl.jpg",
+            "CreatedAt": "2017-03-22"
+          },
+          {
+            "Id": "7d3b41f7-ccb7-4ab9-acf7-657df1dcea40",
+            "IsFeature": false,
+            "ImageUrl": "https://res.cloudinary.com/djrjrb0a4/image/upload/v1651504336/AudiA53_es49py.jpg",
+            "CreatedAt": "2012-03-22"
+          }
+        ],
+        "Offers": [
+          {
+            "Id": "f88dba4b-782e-4e19-b103-d38dcc9b40e4",
+            "Discription": "Dolor fugiat fugiat mollit sit et sit dolore qui. Tempor irure.\r\n",
+            "Discount": 20.0,
+            "TypeOfOffer": "Money",
+            "IsActive": true,
+            "StartDate": "2015-04-04",
+            "EndDate": "2015-04-19",
+            "CreatedAt": "2015-04-01"
+          },
+          {
+            "Id": "26366c06-7e88-4ad3-94f4-ced9003e3bf5",
+            "Discription": "Eiusmod Culpa Lorem nisi nostrud fugiat. proident nostrud ea eu.\r\n",
+            "Discount": 15.0,
+            "TypeOfOffer": "Money",
+            "IsActive": true,
+            "StartDate": "2017-10-12",
+            "EndDate": "2017-10-28",
+            "CreatedAt": "2017-10-06"
+          }
+        ],
+        "Ratings": [
+          {
+            "Id": "ba4ea263-2946-4f3d-8a7c-aa4a6142e253",
+            "Rating": 2,
+            "UserId": "0b2d859b-8de2-48b1-afc1-270679270ccf",
+            "CreatedAt": "2015-06-20"
+          },
+          {
+            "Id": "ceeee637-b778-4b1d-901e-f709ed5d902c",
+            "Rating": 4,
+            "UserId": "0b2d859b-8de2-48b1-afc1-270679270ccf",
+            "CreatedAt": "2015-10-03"
+          }
+        ],
+        "Comments": [
+          {
+            "Id": "9333a1ae-ac22-4e66-a466-d4d86f1c8f61",
+            "Comments": "Fugiat excepteur nisi eu dolor qui qui proident dolor nisi.\r\n",
+            "UserId": "0b2d859b-8de2-48b1-afc1-270679270ccf",
+            "CreatedAt": "2021-07-08"
+          },
+          {
+            "Id": "3564c934-598d-42d8-8775-039fb76fb777",
+            "Comments": "Nostrud reprehenderit ipsum veniam laboris amet est incididunt commodo qui.\r\n",
+            "UserId": "0b2d859b-8de2-48b1-afc1-270679270ccf",
+            "CreatedAt": "2021-02-14"
+          }
+        ],
+        "Trips": [
+          {
+            "Id": "589e7d64-6b31-432b-b6ae-5fd2aecda9c2",
+            "UserId": "0b2d859b-8de2-48b1-afc1-270679270ccf",
+            "Status": "Pending",
+            "PickupDate": "2019-02-07",
+            "ReturnDate": "2019-02-21",
+            "CreatedAt": "2018-05-06",
+            "Transactions": {
+              "Id": "29b0703e-dfbf-4583-ae7a-fb6f3c0c00b2",
+              "Amount": 145.0,
+              "PaymentMethod": "Paystack",
+              "TransactionRef": "29bb9c2e-5e19-4e74-a4d6-540d35299fea",
+              "Status": "Successful",
+              "CreatedAt": "2016-04-12"
+            }
+          },
+          {
+            "Id": "1a20422c-2c3f-48f4-ab32-fb2411f3db77",
+            "UserId": "0b2d859b-8de2-48b1-afc1-270679270ccf",
+            "Status": "Done",
+            "PickupDate": "2017-04-07",
+            "ReturnDate": "2017-04-21",
+            "CreatedAt": "2017-05-06",
+            "Transactions": {
+              "Id": "bdb2ac65-7220-4d16-ab1f-5bb340500203",
+              "Amount": 210.0,
+              "PaymentMethod": "Paystack",
+              "TransactionRef": "29bb9c2e-5e19-4e74-a4d6-540d67339fea",
+              "Status": "Decline",
+              "CreatedAt": "2016-01-25"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Id": "a75d3817-fecd-4955-a373-0ba8ffd4b09b",
+    "UserId": "f40276cc-ce31-474a-8a7e-a697ca82574b",
+    "CompanyName": "Hays Group",
+    "Type": "Organization",
+    "BusinessEmail": "haysanthony@baluba.com",
+    "BusinessPhoneNumber": "+234 8825432800",
+    "IsActivated": false,
+    "IdentityNumber": "74357004312",
+    "SocialMedia": "Facebook",
+    "CreatedAt": "2021-09-14",
+    "Locations": [
+      {
+        "Id": "ed399f1f-d66d-484e-8305-a59214a9d29c",
+        "Address": "320 Nassau Street, Grazierville, Illinois, 5425",
+        "State": "Kogi",
+        "Latitude": 33.536789,
+        "Longitude": 42.032718,
+        "CreatedAt": "2016-01-19"
+      },
+      {
+        "Id": "a9015340-a8e5-4036-ba00-ac8511a1cb9a",
+        "Address": "774 Paerdegat Avenue, Sunnyside, West Virginia, 3868",
+        "State": "Yobe",
+        "Latitude": 59.173531,
+        "Longitude": 95.827934,
+        "CreatedAt": "2020-01-11"
+      }
+    ],
+    "Cars": [
+      {
+        "Id": "3a580c0f-0297-4ac0-835a-cd2251e19e79",
+        "Model": "Peugeot 5008",
+        "YearOfMan": "2022",
+        "PlateNumber": "YNC416",
+        "ChasisNumber": "310336",
+        "Color": "White",
+        "TypeOfCar": "Peugeot",
+        "Mileage": 1,
+        "Price": 8.0,
+        "UnitOfPrice": "$5/mile",
+        "IsVerify": false,
+        "CreatedAt": "2018-06-17",
+        "CarDetails": {
+          "Id": "10cc1c5e-ae05-4167-a0c0-11767a408539",
+          "TypeOfSeat": "Cloth",
+          "SunRoof": false,
+          "Bluetooth": false,
+          "NavigationSystem": false,
+          "AirCondition": true,
+          "RemoteStart": true,
+          "BackupCamera": false,
+          "ThirdRowSeating": false,
+          "Driver": false,
+          "CarPlay": false,
+          "IsTrack": true,
+          "CreatedAt": "2021-02-06"
+        },
+        "Images": [
+          {
+            "Id": "41e1619d-da33-4644-90b9-8a9a74a593e2",
+            "IsFeature": false,
+            "ImageUrl": "https://res.cloudinary.com/djrjrb0a4/image/upload/v1651504337/Ferarri3_lgfo3d.jpg",
+            "CreatedAt": "2015-06-05"
+          },
+          {
+            "Id": "078b888c-aef7-42d4-875d-86261fc069fc",
+            "IsFeature": false,
+            "ImageUrl": "https://res.cloudinary.com/djrjrb0a4/image/upload/v1651504336/AudiA5_vweisw.jpg",
+            "CreatedAt": "2015-09-05"
+          }
+        ],
+        "Offers": [
+          {
+            "Id": "b6d2350e-0a2e-4b74-a4fc-689d1d1cb6c6",
+            "Discription": "Minim labore culpa ut. Veniam laboris eu tempor fugiat qui.\r\n",
+            "Discount": 30.0,
+            "TypeOfOffer": "Money",
+            "IsActive": false,
+            "StartDate": "2021-07-18",
+            "EndDate": "2021-08-26",
+            "CreatedAt": "2021-07-06"
+          },
+          {
+            "Id": "20d9d735-8da5-493e-8a48-808887b6491f",
+            "Discription": "Reprehenderi commodo ex aute dolore. Enim laborum.\r\n",
+            "Discount": 25.0,
+            "TypeOfOffer": "Money",
+            "IsActive": true,
+            "StartDate": "2019-08-18",
+            "EndDate": "2020-11-17",
+            "CreatedAt": "2019-08-03"
+          }
+        ],
+        "Ratings": [
+          {
+            "Id": "5098738a-6700-4216-a8cf-83fbefdf94f0",
+            "Rating": 3,
+            "UserId": "2f05f94f-1d59-4078-ae13-0d39f068bb5d",
+            "CreatedAt": "2019-04-06"
+          },
+          {
+            "Id": "96b17671-802d-4448-a968-208855815d2f",
+            "Rating": 4,
+            "UserId": "2f05f94f-1d59-4078-ae13-0d39f068bb5d",
+            "CreatedAt": "2020-04-06"
+          }
+        ],
+        "Comments": [
+          {
+            "Id": "ed8a5ece-9373-4743-b848-b6cf95dd106d",
+            "Comments": "Exercitation ullamco mollit dolore Lorem consectetur ea.\r\n",
+            "UserId": "2f05f94f-1d59-4078-ae13-0d39f068bb5d",
+            "CreatedAt": "2021-03-28"
+          },
+          {
+            "Id": "198691b0-b519-4fc4-aa6a-d3bb63687bde",
+            "Comments": "Exercitation ullamco mollit dolore Loremer consectetur ea.\r\n",
+            "UserId": "2f05f94f-1d59-4078-ae13-0d39f068bb5d",
+            "CreatedAt": "2021-08-28"
+          }
+        ],
+        "Trips": [
+          {
+            "Id": "17464fb7-2db5-491c-8ccd-785a3dd73b08",
+            "UserId": "2f05f94f-1d59-4078-ae13-0d39f068bb5d",
+            "Status": "Done",
+            "PickupDate": "2022-01-06",
+            "ReturnDate": "2022-01-10",
+            "CreatedAt": "2022-01-02",
+            "Transactions": {
+              "Id": "d8b50f1f-23fc-4690-b503-ec4dd76a99cb",
+              "Amount": 90.0,
+              "PaymentMethod": "Flutterwave",
+              "TransactionRef": "29bb9c2e-5e19-4e74-a4d6-540d41039fea",
+              "Status": "Successful",
+              "CreatedAt": "2010-04-25"
+            }
+          },
+          {
+            "Id": "74be4c30-484c-4b53-be74-93fa3115031e",
+            "UserId": "2f05f94f-1d59-4078-ae13-0d39f068bb5d",
+            "Status": "Pending",
+            "PickupDate": "2021-01-06",
+            "ReturnDate": "2021-01-10",
+            "CreatedAt": "2021-01-02",
+            "Transactions": {
+              "Id": "7d49fc81-8711-4ccc-b45c-bc2a8e22ea9d",
+              "Amount": 100.0,
+              "PaymentMethod": "Paystack",
+              "TransactionRef": "29bb9c2e-5e19-4e74-a4d6-540d34289fea",
+              "Status": "Successful",
+              "CreatedAt": "2019-04-25"
+            }
+          }
+        ]
+      },
+      {
+        "Id": "c5fff033-7fc7-4eeb-b7f2-0f9a01f4f56f",
+        "Model": "Peugeot 308",
+        "YearOfMan": "2021",
+        "PlateNumber": "EW765U",
+        "ChasisNumber": "804184",
+        "Color": "white",
+        "TypeOfCar": "Peugeot",
+        "Mileage": 1,
+        "Price": 4.0,
+        "UnitOfPrice": "$4/mile",
+        "IsVerify": true,
+        "CreatedAt": "2020-08-16",
+        "CarDetails": {
+          "Id": "3fc076c5-dd21-4d4b-b07a-c00eec64643f",
+          "TypeOfSeat": "Leather",
+          "SunRoof": false,
+          "Bluetooth": true,
+          "NavigationSystem": false,
+          "AirCondition": false,
+          "RemoteStart": false,
+          "BackupCamera": true,
+          "ThirdRowSeating": true,
+          "Driver": false,
+          "CarPlay": false,
+          "IsTrack": true,
+          "CreatedAt": "2015-01-11"
+        },
+        "Images": [
+          {
+            "Id": "eb571265-758b-4a87-9dd8-4740909abb87",
+            "IsFeature": false,
+            "ImageUrl": "https://res.cloudinary.com/djrjrb0a4/image/upload/v1651504337/Ferarri3_lgfo3d.jpg",
+            "CreatedAt": "2016-03-22"
+          },
+          {
+            "Id": "06c80db2-169d-4254-a327-6a0ed98bcce3",
+            "IsFeature": false,
+            "ImageUrl": "https://res.cloudinary.com/djrjrb0a4/image/upload/v1651504339/Suv4_u39yxu.jpg",
+            "CreatedAt": "2011-03-22"
+          }
+        ],
+        "Offers": [
+          {
+            "Id": "45c33d6b-d33e-4c18-badb-e6229ebce01c",
+            "Discription": "Dolor fugiat fugiat mollit sit et sit dolore qui. Tempor irure.\r\n",
+            "Discount": 30.0,
+            "TypeOfOffer": "Money",
+            "IsActive": false,
+            "StartDate": "2015-04-04",
+            "EndDate": "2015-04-19",
+            "CreatedAt": "2015-04-01"
+          },
+          {
+            "Id": "7e389efd-c165-4631-acdb-e9f7a4146e76",
+            "Discription": "Eiusmod Culpa Lorem nisi nostrud fugiat. proident nostrud ea eu.\r\n",
+            "Discount": 15.0,
+            "TypeOfOffer": "Money",
+            "IsActive": true,
+            "StartDate": "2017-10-12",
+            "EndDate": "2017-10-28",
+            "CreatedAt": "2017-10-06"
+          }
+        ],
+        "Ratings": [
+          {
+            "Id": "449f6f1f-4d8f-4fd6-b8e4-763cab6a10fa",
+            "Rating": 4,
+            "UserId": "7dfa1ecc-2230-444e-9c7e-955119e42ff5",
+            "CreatedAt": "2015-06-20"
+          },
+          {
+            "Id": "08e42d83-766a-4964-8799-b5500e541eb1",
+            "Rating": 5,
+            "UserId": "7dfa1ecc-2230-444e-9c7e-955119e42ff5",
+            "CreatedAt": "2015-10-03"
+          }
+        ],
+        "Comments": [
+          {
+            "Id": "595b2770-19e7-4553-b212-6de17fb3f668",
+            "Comments": "Nostrud reprehenderit ipsum veniam laboris amet est incididunt commodo qui.\r\n",
+            "UserId": "7dfa1ecc-2230-444e-9c7e-955119e42ff5",
+            "CreatedAt": "2021-02-14"
+          },
+          {
+            "Id": "eef9a070-d216-4055-81c4-ca3a5630a005",
+            "Comments": "Consequat laborum cupidatat sit aliqua duis sint nulla veniam non dolor ut.\r\n",
+            "UserId": "7dfa1ecc-2230-444e-9c7e-955119e42ff5",
+            "CreatedAt": "2017-07-21"
+          }
+        ],
+        "Trips": [
+          {
+            "Id": "8dd90e18-58c0-4fb0-9f2d-47b980fe47ac",
+            "UserId": "7dfa1ecc-2230-444e-9c7e-955119e42ff5",
+            "Status": "Done",
+            "PickupDate": "2016-08-21",
+            "ReturnDate": "2016-08-30",
+            "CreatedAt": "2016-08-16",
+            "Transactions": {
+              "Id": "7f3445a0-70ff-4a1e-991f-132fa0f0ed1a",
+              "Amount": 120.0,
+              "PaymentMethod": "Paystack",
+              "TransactionRef": "29ce9c2e-5e19-4e74-a4d6-540d35439fea",
+              "Status": "Successful",
+              "CreatedAt": "2013-07-25"
+            }
+          },
+          {
+            "Id": "16d7d753-af73-4e7c-a835-ca6af0fb3778",
+            "UserId": "7dfa1ecc-2230-444e-9c7e-955119e42ff5",
+            "Status": "Pending",
+            "PickupDate": "2012-07-21",
+            "ReturnDate": "2012-07-30",
+            "CreatedAt": "2012-07-16",
+            "Transactions": {
+              "Id": "6194b4f5-18f9-42be-9c2a-d47dd0e09b2b",
+              "Amount": 280.0,
+              "PaymentMethod": "Paystack",
+              "TransactionRef": "29bb9c2e-5e19-4e43-a4d6-540d35439fea",
+              "Status": "Successful",
+              "CreatedAt": "2016-11-25"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Id": "8718a20b-1451-4026-80a9-0d9cb7679924",
+    "UserId": "d7c29369-929b-4426-b54d-04b5f1560b50",
+    "CompanyName": "Hayden",
+    "Type": "Organization",
+    "BusinessEmail": "haydentrevino@baluba.com",
+    "BusinessPhoneNumber": "+234 9714883273",
+    "IsActivated": true,
+    "IdentityNumber": "11357004672",
+    "SocialMedia": "Facebook",
+    "CreatedAt": "2016-04-24",
+    "Locations": [
+      {
+        "Id": "33ca0270-3c7d-4f7f-a854-b8e61b050249",
+        "Address": "153 Brown Street, Williston, Louisiana, 3729",
+        "State": "Kano",
+        "Latitude": 49.448681,
+        "Longitude": 50.754443,
+        "CreatedAt": "2016-10-01"
+      },
+      {
+        "Id": "70f71d7a-8588-43cf-82f2-744e17754523",
+        "Address": "414 Overbaugh Place, Islandia, Washington, 6622",
+        "State": "Abuja",
+        "Latitude": -36.907886,
+        "Longitude": -61.74036,
+        "CreatedAt": "2017-07-16"
+      }
+    ],
+    "Cars": [
+      {
+        "Id": "d6f425c3-1ea0-4bb6-99cc-d3f44dad0a92",
+        "Model": "Peugeot 308",
+        "YearOfMan": "2021",
+        "PlateNumber": "ZR765U",
+        "ChasisNumber": "803424",
+        "Color": "blue",
+        "TypeOfCar": "Peugeot",
+        "Mileage": 1,
+        "Price": 4.0,
+        "UnitOfPrice": "$4/mile",
+        "IsVerify": true,
+        "CreatedAt": "2020-08-16",
+        "CarDetails": {
+          "Id": "c3470a3c-6ac7-4867-a9a4-0a2b8247a618",
+          "TypeOfSeat": "Leather",
+          "SunRoof": false,
+          "Bluetooth": true,
+          "NavigationSystem": false,
+          "AirCondition": false,
+          "RemoteStart": false,
+          "BackupCamera": true,
+          "ThirdRowSeating": true,
+          "Driver": false,
+          "CarPlay": false,
+          "IsTrack": true,
+          "CreatedAt": "2015-01-11"
+        },
+        "Images": [
+          {
+            "Id": "1187f203-6456-4196-90a6-f2c5afff03c7",
+            "IsFeature": false,
+            "ImageUrl": "https://res.cloudinary.com/djrjrb0a4/image/upload/v1651504338/RoseRouce3_arpnbl.jpg",
+            "CreatedAt": "2017-03-22"
+          },
+          {
+            "Id": "e6a782a5-7c02-48ef-b460-d076de08cb28",
+            "IsFeature": false,
+            "ImageUrl": "https://res.cloudinary.com/djrjrb0a4/image/upload/v1651504338/RoseRouce_in4z3a.jpg",
+            "CreatedAt": "2016-03-22"
+          }
+        ],
+        "Offers": [
+          {
+            "Id": "2da6cbe4-d599-44f6-9e75-5190f7a15cb9",
+            "Discription": "Dolor fugiat fugiat mollit sit et sit dolore qui. Tempor irure.\r\n",
+            "Discount": 30.0,
+            "TypeOfOffer": "Money",
+            "IsActive": false,
+            "StartDate": "2015-04-04",
+            "EndDate": "2015-04-19",
+            "CreatedAt": "2015-04-01"
+          },
+          {
+            "Id": "ef562125-42bd-482a-b53e-06725ff8bde0",
+            "Discription": "Eiusmod Culpa Lorem nisi nostrud fugiat. proident nostrud ea eu.\r\n",
+            "Discount": 15.0,
+            "TypeOfOffer": "Money",
+            "IsActive": true,
+            "StartDate": "2017-10-12",
+            "EndDate": "2017-10-28",
+            "CreatedAt": "2017-10-06"
+          }
+        ],
+        "Ratings": [
+          {
+            "Id": "357193a6-830c-4808-ac42-f4634031dd86",
+            "Rating": 4,
+            "UserId": "27e9e275-adde-4b6d-881c-6397b46a9020",
+            "CreatedAt": "2015-06-20"
+          },
+          {
+            "Id": "522b4718-0662-4f3c-876d-d6c2b90ee0a2",
+            "Rating": 4,
+            "UserId": "27e9e275-adde-4b6d-881c-6397b46a9020",
+            "CreatedAt": "2015-10-03"
+          }
+        ],
+        "Comments": [
+          {
+            "Id": "27b2c3b9-8455-409e-9a9a-1e8b39e3c059",
+            "Comments": "Nostrud reprehenderit ipsum veniam laboris amet est incididunt commodo qui.\r\n",
+            "UserId": "27e9e275-adde-4b6d-881c-6397b46a9020",
+            "CreatedAt": "2021-02-14"
+          },
+          {
+            "Id": "ad9654b6-3023-4eb8-8f09-f0e3e215ece0",
+            "Comments": "Consequat laborum cupidatat sit aliqua duis sint nulla veniam non dolor ut.\r\n",
+            "UserId": "27e9e275-adde-4b6d-881c-6397b46a9020",
+            "CreatedAt": "2017-07-21"
+          }
+        ],
+        "Trips": [
+          {
+            "Id": "da39ba70-9a12-4475-a046-951203b2c867",
+            "UserId": "27e9e275-adde-4b6d-881c-6397b46a9020",
+            "Status": "Done",
+            "PickupDate": "2016-03-21",
+            "ReturnDate": "2016-03-30",
+            "CreatedAt": "2016-03-16",
+            "Transactions": {
+              "Id": "d8627150-2852-402b-9036-5b53c8413ff2",
+              "Amount": 120.0,
+              "PaymentMethod": "Paystack",
+              "TransactionRef": "29ce9c2e-5e19-4e74-a4d6-540d35439fea",
+              "Status": "Successful",
+              "CreatedAt": "2013-04-25"
+            }
+          },
+          {
+            "Id": "e2d59ca9-f692-4c7e-8cb3-84093f5b6750",
+            "UserId": "27e9e275-adde-4b6d-881c-6397b46a9020",
+            "Status": "Done",
+            "PickupDate": "2016-07-21",
+            "ReturnDate": "2016-07-30",
+            "CreatedAt": "2016-07-16",
+            "Transactions": {
+              "Id": "5204e358-d6a1-4b4b-bb88-a7b6ed06496e",
+              "Amount": 250.0,
+              "PaymentMethod": "Flutterwave",
+              "TransactionRef": "29bb9c2e-5e19-4e43-a4d6-540d35439fea",
+              "Status": "Successful",
+              "CreatedAt": "2016-11-25"
+            }
+          }
+        ]
+      },
+      {
+        "Id": "391d36af-269d-44ed-b618-520f4ad78839",
+        "Model": "Peugeot 308",
+        "YearOfMan": "2017",
+        "PlateNumber": "ZX515U",
+        "ChasisNumber": "852824",
+        "Color": "blue",
+        "TypeOfCar": "Peugeot",
+        "Mileage": 6,
+        "Price": 4.0,
+        "UnitOfPrice": "$4/mile",
+        "IsVerify": true,
+        "CreatedAt": "2020-08-16",
+        "CarDetails": {
+          "Id": "83ceba5c-7395-4cc1-b8ef-827d2d0747f5",
+          "TypeOfSeat": "Leather",
+          "SunRoof": false,
+          "Bluetooth": true,
+          "NavigationSystem": false,
+          "AirCondition": false,
+          "RemoteStart": false,
+          "BackupCamera": true,
+          "ThirdRowSeating": true,
+          "Driver": false,
+          "CarPlay": false,
+          "IsTrack": true,
+          "CreatedAt": "2015-01-11"
+        },
+        "Images": [
+          {
+            "Id": "73c5fdf9-7e7f-4c73-989c-4025253f0cb2",
+            "IsFeature": false,
+            "ImageUrl": "https://res.cloudinary.com/djrjrb0a4/image/upload/v1651504339/Suv2_wkbohh.jpg",
+            "CreatedAt": "2017-03-22"
+          },
+          {
+            "Id": "2a79f22e-f969-4406-a0c5-acb443c74ef1",
+            "IsFeature": false,
+            "ImageUrl": "https://res.cloudinary.com/djrjrb0a4/image/upload/v1651504338/Lexus5_cui08w.jpg",
+            "CreatedAt": "2016-03-22"
+          }
+        ],
+        "Offers": [
+          {
+            "Id": "3ec6247e-feca-4cfc-8744-e0f1f8851b56",
+            "Discription": "Dolor fugiat fugiat mollit sit et sit dolore qui. Tempor irure.\r\n",
+            "Discount": 30.0,
+            "TypeOfOffer": "Money",
+            "IsActive": false,
+            "StartDate": "2015-04-04",
+            "EndDate": "2015-04-19",
+            "CreatedAt": "2015-04-01"
+          },
+          {
+            "Id": "7af6d582-3822-443d-b55c-dac07e0fe0d8",
+            "Discription": "Eiusmod Culpa Lorem nisi nostrud fugiat. proident nostrud ea eu.\r\n",
+            "Discount": 15.0,
+            "TypeOfOffer": "Money",
+            "IsActive": true,
+            "StartDate": "2017-10-12",
+            "EndDate": "2017-10-28",
+            "CreatedAt": "2017-10-06"
+          }
+        ],
+        "Ratings": [
+          {
+            "Id": "5cd51ee4-2ed6-4bef-98d3-8da9cdf1c3af",
+            "Rating": 4,
+            "UserId": "f40276cc-ce31-474a-8a7e-a697ca82574b",
+            "CreatedAt": "2015-06-20"
+          },
+          {
+            "Id": "9bdc1685-906a-482e-893f-cd5d5be88fd2",
+            "Rating": 4,
+            "UserId": "f40276cc-ce31-474a-8a7e-a697ca82574b",
+            "CreatedAt": "2015-10-03"
+          }
+        ],
+        "Comments": [
+          {
+            "Id": "008d947c-285c-4660-bc9e-0d7283986f5c",
+            "Comments": "Nostrud reprehenderit ipsum veniam laboris amet est incididunt commodo qui.\r\n",
+            "UserId": "f40276cc-ce31-474a-8a7e-a697ca82574b",
+            "CreatedAt": "2021-02-14"
+          },
+          {
+            "Id": "dd62710e-869e-4cd2-9d7b-fd360fb8b0e5",
+            "Comments": "Consequat laborum cupidatat sit aliqua duis sint nulla veniam non dolor ut.\r\n",
+            "UserId": "f40276cc-ce31-474a-8a7e-a697ca82574b",
+            "CreatedAt": "2017-07-21"
+          }
+        ],
+        "Trips": [
+          {
+            "Id": "aa8b52a3-4976-45fc-83bd-743a9a257891",
+            "UserId": "f40276cc-ce31-474a-8a7e-a697ca82574b",
+            "Status": "Done",
+            "PickupDate": "2016-03-21",
+            "ReturnDate": "2016-03-30",
+            "CreatedAt": "2016-03-16",
+            "Transactions": {
+              "Id": "04f92ef6-c373-4911-a33a-462d42f4a330",
+              "Amount": 120.0,
+              "PaymentMethod": "Paystack",
+              "TransactionRef": "29ce9c2e-5e19-4e74-a4d6-540d35439fea",
+              "Status": "Successful",
+              "CreatedAt": "2013-04-25"
+            }
+          },
+          {
+            "Id": "6d3f5a4b-c0f3-493d-8b04-1cc39044dab1",
+            "UserId": "f40276cc-ce31-474a-8a7e-a697ca82574b",
+            "Status": "Done",
+            "PickupDate": "2016-07-21",
+            "ReturnDate": "2016-07-30",
+            "CreatedAt": "2016-07-16",
+            "Transactions": {
+              "Id": "ec33b39d-079b-4e08-b5f8-59868c4cc55c",
+              "Amount": 250.0,
+              "PaymentMethod": "Flutterwave",
+              "TransactionRef": "29bb9c2e-5e19-4e43-a4d6-540d35439fea",
+              "Status": "Successful",
+              "CreatedAt": "2016-11-25"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Id": "92a79665-1d74-48e1-ad2e-4158c15b9c2f",
+    "UserId": "794d242b-7669-4c61-a5e2-b6ab35f4a8d6",
+    "Type": "Individual",
+    "BusinessEmail": "cruzhuff@baluba.com",
+    "BusinessPhoneNumber": "+234 9695323709",
+    "IsActivated": false,
+    "IdentityNumber": "70745106492",
+    "SocialMedia": "Facebook",
+    "CreatedAt": "2020-10-11",
+    "Locations": [
+      {
+        "Id": "c57b5c5f-f184-4346-b8aa-3e433170c861",
+        "Address": "281 Adler Place, Innsbrook, Iowa, 6160",
+        "State": "Lagos",
+        "Latitude": 9.00259,
+        "Longitude": 111.975312,
+        "CreatedAt": "2018-04-04"
+      },
+      {
+        "Id": "1deea794-0877-43a8-9566-a0697a499330",
+        "Address": "153 Brown Street, Williston, Louisiana, 3729",
+        "State": "Kano",
+        "Latitude": 49.448681,
+        "Longitude": 50.754443,
+        "CreatedAt": "2016-10-01"
+      }
+    ],
+    "Cars": [
+      {
+        "Id": "af9e8e7f-9498-4878-aef6-59d1e40ac8e1",
+        "Model": "Hyundai Creta",
+        "YearOfMan": "Weber",
+        "PlateNumber": "JJE715",
+        "ChasisNumber": "909012",
+        "Color": "blue",
+        "TypeOfCar": "Hyundai",
+        "Mileage": 2,
+        "Price": 7.0,
+        "UnitOfPrice": "$7/mile",
+        "IsVerify": true,
+        "CreatedAt": "2016-03-14",
+        "CarDetails": {
+          "Id": "081905b1-70af-44cc-b823-c9182aa70e17",
+          "TypeOfSeat": "Wool",
+          "SunRoof": true,
+          "Bluetooth": false,
+          "NavigationSystem": false,
+          "AirCondition": true,
+          "RemoteStart": true,
+          "BackupCamera": true,
+          "ThirdRowSeating": false,
+          "Driver": true,
+          "CarPlay": false,
+          "IsTrack": false,
+          "CreatedAt": "2022-04-04"
+        },
+        "Images": [
+          {
+            "Id": "47e6c9d7-09bf-449a-a78b-27258d50c851",
+            "IsFeature": false,
+            "ImageUrl": "https://res.cloudinary.com/djrjrb0a4/image/upload/v1651504337/Ferarri4_wwcnnx.jpg",
+            "CreatedAt": "2018-05-23"
+          },
+          {
+            "Id": "86923502-10c0-4638-ba9e-78f0a7360fc7",
+            "IsFeature": false,
+            "ImageUrl": "https://res.cloudinary.com/djrjrb0a4/image/upload/v1651504338/Lexus6_aspvmd.jpg",
+            "CreatedAt": "2018-05-23"
+          }
+        ],
+        "Offers": [
+          {
+            "Id": "7a717597-0e26-4b41-9fc1-a7d700a5e3be",
+            "Discription": "Sunt amet ipsum mollit reprehenderit quis adipisicing.\r\n",
+            "Discount": 25.0,
+            "TypeOfOffer": "Money",
+            "IsActive": true,
+            "StartDate": "2017-11-13",
+            "EndDate": "2017-12-07",
+            "CreatedAt": "2017-11-12"
+          },
+          {
+            "Id": "a2fc3796-89bf-4276-b22b-0f186ebc1d51",
+            "Discription": "Minim labore culpa ut. Veniam laboris eu tempor fugiat qui.\r\n",
+            "Discount": 25.0,
+            "TypeOfOffer": "Money",
+            "IsActive": false,
+            "StartDate": "2020-07-18",
+            "EndDate": "2020-08-26",
+            "CreatedAt": "2020-07-06"
+          }
+        ],
+        "Ratings": [
+          {
+            "Id": "12dcde7f-41ff-40c2-ac93-8dbe5034dca0",
+            "Rating": 3,
+            "UserId": "d7c29369-929b-4426-b54d-04b5f1560b50",
+            "CreatedAt": "2021-06-14"
+          },
+          {
+            "Id": "03f52f96-0312-4cee-8800-f8f467b546ba",
+            "Rating": 4,
+            "UserId": "d7c29369-929b-4426-b54d-04b5f1560b50",
+            "CreatedAt": "2017-11-06"
+          }
+        ],
+        "Comments": [
+          {
+            "Id": "3b05304c-5e8d-4f6c-a26a-066532f91820",
+            "Comments": "Consequat laborum cupidatat sit aliqua duis sint nulla veniam non dolor ut.\r\n",
+            "UserId": "d7c29369-929b-4426-b54d-04b5f1560b50",
+            "CreatedAt": "2017-07-21"
+          },
+          {
+            "Id": "23e7d1af-0bd7-4a5a-b914-6f51834f855a",
+            "Comments": "Cupidatat velit officia irure aliquip nostrud laboris fugiat dolore dolordeserunt esse eu.\r\n",
+            "UserId": "d7c29369-929b-4426-b54d-04b5f1560b50",
+            "CreatedAt": "2015-08-09"
+          }
+        ],
+        "Trips": [
+          {
+            "Id": "0ada09c4-b240-4c91-89a5-68e3ed09924b",
+            "UserId": "d7c29369-929b-4426-b54d-04b5f1560b50",
+            "Status": "Done",
+            "PickupDate": "2016-03-21",
+            "ReturnDate": "2016-03-30",
+            "CreatedAt": "2016-03-16",
+            "Transactions": {
+              "Id": "c6898807-ce28-4766-9603-c62673e4ef8b",
+              "Amount": 100.0,
+              "PaymentMethod": "Paystack",
+              "TransactionRef": "29bb9c2e-5e19-4e74-a4d6-540d35439erf",
+              "Status": "Successful",
+              "CreatedAt": "2017-04-25"
+            }
+          },
+          {
+            "Id": "b38cf5f9-8f0e-4080-9581-92d61dc0859e",
+            "UserId": "d7c29369-929b-4426-b54d-04b5f1560b50",
+            "Status": "Pending",
+            "PickupDate": "2016-01-21",
+            "ReturnDate": "2016-01-30",
+            "CreatedAt": "2016-01-16",
+            "Transactions": {
+              "Id": "94ed614a-8704-416f-beaa-3cd856c7cdcc",
+              "Amount": 150.0,
+              "PaymentMethod": "Paystack",
+              "TransactionRef": "29bb9c2e-5e19-4e74-a5g9-540d35439fea",
+              "Status": "Successful",
+              "CreatedAt": "2020-04-25"
+            }
+          }
+        ]
+      },
+      {
+        "Id": "3b1ae2e3-ef0b-4a25-9a35-49a914ea51fc",
+        "Model": "Peugeot 308",
+        "YearOfMan": "2021",
+        "PlateNumber": "ZR425U",
+        "ChasisNumber": "809024",
+        "Color": "blue",
+        "TypeOfCar": "Peugeot",
+        "Mileage": 3,
+        "Price": 4.0,
+        "UnitOfPrice": "$4/mile",
+        "IsVerify": true,
+        "CreatedAt": "2020-08-16",
+        "CarDetails": {
+          "Id": "0441b2e5-eba3-4a83-8cac-bce3d1bf2fbe",
+          "TypeOfSeat": "Leather",
+          "SunRoof": false,
+          "Bluetooth": true,
+          "NavigationSystem": false,
+          "AirCondition": false,
+          "RemoteStart": false,
+          "BackupCamera": true,
+          "ThirdRowSeating": true,
+          "Driver": false,
+          "CarPlay": false,
+          "IsTrack": true,
+          "CreatedAt": "2017-01-11"
+        },
+        "Images": [
+          {
+            "Id": "4702bf1a-1296-411e-9c84-84a8d49d34f7",
+            "IsFeature": false,
+            "ImageUrl": "https://res.cloudinary.com/djrjrb0a4/image/upload/v1651504337/Ferarri5_zyvhyn.jpg",
+            "CreatedAt": "2017-03-22"
+          },
+          {
+            "Id": "dc9c6aa8-af4c-4382-aab6-72bc82787ec8",
+            "IsFeature": false,
+            "ImageUrl": "https://res.cloudinary.com/djrjrb0a4/image/upload/v1651504337/Lexus_vnmliq.jpg",
+            "CreatedAt": "2016-03-22"
+          }
+        ],
+        "Offers": [
+          {
+            "Id": "9fd7e19b-f378-4eeb-9b57-9416b992c894",
+            "Discription": "Dolor fugiat fugiat mollit sit et sit dolore qui. Tempor irure.\r\n",
+            "Discount": 30.0,
+            "TypeOfOffer": "Money",
+            "IsActive": false,
+            "StartDate": "2015-04-04",
+            "EndDate": "2015-04-19",
+            "CreatedAt": "2015-04-01"
+          },
+          {
+            "Id": "8a712a7d-6ccb-415e-b178-8641d4ad07a7",
+            "Discription": "Eiusmod Culpa Lorem nisi nostrud fugiat. proident nostrud ea eu.\r\n",
+            "Discount": 15.0,
+            "TypeOfOffer": "Money",
+            "IsActive": true,
+            "StartDate": "2017-10-12",
+            "EndDate": "2017-10-28",
+            "CreatedAt": "2017-10-06"
+          }
+        ],
+        "Ratings": [
+          {
+            "Id": "3cc434c8-788c-482f-844f-8834aa97259b",
+            "Rating": 4,
+            "UserId": "2f05f94f-1d59-4078-ae13-0d39f068bb5d",
+            "CreatedAt": "2015-06-20"
+          },
+          {
+            "Id": "9749d4ae-98b9-42db-a8bd-e19a86f0d535",
+            "Rating": 4,
+            "UserId": "2f05f94f-1d59-4078-ae13-0d39f068bb5d",
+            "CreatedAt": "2015-10-03"
+          }
+        ],
+        "Comments": [
+          {
+            "Id": "9f59288a-c1e5-4b2f-83ea-ebb9a177530e",
+            "Comments": "Nostrud reprehenderit ipsum veniam laboris amet est incididunt commodo qui.\r\n",
+            "UserId": "2f05f94f-1d59-4078-ae13-0d39f068bb5d",
+            "CreatedAt": "2021-02-14"
+          },
+          {
+            "Id": "cf30232b-05a6-4ddf-b7f0-fa732027a2ec",
+            "Comments": "Consequat laborum cupidatat sit aliqua duis sint nulla veniam non dolor ut.\r\n",
+            "UserId": "2f05f94f-1d59-4078-ae13-0d39f068bb5d",
+            "CreatedAt": "2017-07-21"
+          }
+        ],
+        "Trips": [
+          {
+            "Id": "134af242-c1bd-4a33-b3d1-01694ace55e8",
+            "UserId": "2f05f94f-1d59-4078-ae13-0d39f068bb5d",
+            "Status": "Done",
+            "PickupDate": "2016-07-21",
+            "ReturnDate": "2016-07-30",
+            "CreatedAt": "2016-07-16",
+            "Transactions": {
+              "Id": "dcc64ae7-54f2-4509-ae3c-da53ab4f8f8a",
+              "Amount": 320.0,
+              "PaymentMethod": "Paystack",
+              "TransactionRef": "29ce9c2e-5e19-4e74-a4d6-540d35439fea",
+              "Status": "Successful",
+              "CreatedAt": "2010-04-25"
+            }
+          },
+          {
+            "Id": "8ec861d6-1330-418d-b2ac-371560aa1401",
+            "UserId": "2f05f94f-1d59-4078-ae13-0d39f068bb5d",
+            "Status": "Done",
+            "PickupDate": "2018-07-21",
+            "ReturnDate": "2018-07-30",
+            "CreatedAt": "2018-07-16",
+            "Transactions": {
+              "Id": "a97631bd-eb62-4814-9578-fb2730cc356b",
+              "Amount": 260.0,
+              "PaymentMethod": "Flutterwave",
+              "TransactionRef": "29bb9c2e-5e19-4e43-a4d6-540d35439fea",
+              "Status": "Decline",
+              "CreatedAt": "2020-11-25"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
