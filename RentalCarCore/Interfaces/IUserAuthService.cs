@@ -10,8 +10,7 @@ namespace RentalCarCore.Interfaces
 {
     public interface IUserAuthService
     {
-        Task<CustomResponse<string>> UpdatePassword(UpdatePasswordDTO updatePasswordDto);
-
-
+        //Task<CustomResponse<string>> UpdatePassword(UpdatePasswordDTO updatePasswordDto);
+        Task<CustomResponse<string>> UpdatePassword(string userId, UpdatePasswordDTO updatePasswordDto);
     }
 }

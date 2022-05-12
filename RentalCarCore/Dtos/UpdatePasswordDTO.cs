@@ -10,7 +10,7 @@ namespace RentalCarCore.Dtos
     public class UpdatePasswordDTO
     {
         [Required]
-        public string OldPassword { get; set; }
+        public string CurrentPassword { get; set; }
 
         [Required]
 
