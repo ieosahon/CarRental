@@ -43,6 +43,7 @@ namespace RentalCarApi
 
             services.AddScoped<ITokenGen, TokenGen>();
             services.AddScoped<IUserAuthService, UserAuthService>();
+            services.AddScoped<ITokenGen, TokenGen>();
 
         }
 
