@@ -21,8 +21,4 @@
     <ProjectReference Include="..\RentalCarInfrastructure\RentalCarInfrastructure.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Controllers\" />
-  </ItemGroup>
-
 </Project>

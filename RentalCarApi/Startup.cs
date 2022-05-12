@@ -9,6 +9,7 @@ using Microsoft.OpenApi.Models;
 using RentalCarApi.Extentions;
 using RentalCarCore.Implementations;
 using RentalCarCore.Interfaces;
+using RentalCarCore.Services;
 using RentalCarInfrastructure.Context;
 using RentalCarInfrastructure.ModelImage;
 using RentalCarInfrastructure.ModelMail;
@@ -41,7 +42,7 @@ namespace RentalCarApi
             services.RegisterAllService();
 
             services.AddScoped<ITokenGen, TokenGen>();
-            services.AddScoped<IUpdatePassword, UpdatePassword>();
+            services.AddScoped<IUserAuthService, UserAuthService>();
 
         }
 

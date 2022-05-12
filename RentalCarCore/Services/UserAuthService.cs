@@ -27,9 +27,9 @@ namespace RentalCarCore.Services
 
         }
 
-        public async Task<CustomResponse<string>> UpdatePassword(string userId, UpdatePasswordDTO updatePasswordDto)
+        public async Task<CustomResponse<string>> UpdatePasswordAsync(UpdatePasswordDTO updatePasswordDto)
         {
-            var user = await _userManager.FindByIdAsync(userId);
+            var user = await _userManager.FindByIdAsync(updatePasswordDto.Id);
             var comparePassword = await _userManager.CheckPasswordAsync(user, updatePasswordDto.CurrentPassword);
             if (comparePassword)
             {
