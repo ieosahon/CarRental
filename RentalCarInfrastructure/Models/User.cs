@@ -14,11 +14,9 @@ namespace RentalCarInfrastructure.Models
         [StringLength(50, MinimumLength = 2, ErrorMessage = DataAnnotationsHelper.FirstNameValidator)]
         [Required]
         public string FirstName { get; set; }
-
         [StringLength(50, MinimumLength = 2, ErrorMessage = DataAnnotationsHelper.LastNameValidator)]
         [Required]
         public string LastName { get; set; }
-        
         [StringLength(50, MinimumLength = 2, ErrorMessage = DataAnnotationsHelper.PasswordValidator)]
         [Required]
         public string Password { get; set; }
@@ -39,7 +37,8 @@ namespace RentalCarInfrastructure.Models
 
         [StringLength(250, MinimumLength = 3, ErrorMessage = DataAnnotationsHelper.AvatarValidator)]
         public string Avatar { get; set; }
-
+        public string RefreshToken { get; set; }
+        public DateTime ExpiryTime { get; set; }    
         public bool IsActive { get; set; }
         public virtual Dealer Dealers { get; set; }
         public virtual ICollection<Blog> Blogs { get; set; }
