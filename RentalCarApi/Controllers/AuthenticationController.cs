@@ -38,7 +38,7 @@ namespace RentalCarApi.Controllers
 
         [HttpPut]
         [Route("Update-password")]
-        public async Task<IActionResult> UpdatePassword(string Id, UpdatePasswordDTO updatePasswordDto)
+        public async Task<IActionResult> UpdatePassword(UpdatePasswordDTO updatePasswordDto)
         {
             var userId = HttpContext.User.FindFirst(user => user.Type == ClaimTypes.NameIdentifier).Value;
             try
