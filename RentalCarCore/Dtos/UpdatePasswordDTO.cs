@@ -11,8 +11,8 @@ namespace RentalCarCore.Dtos
 {
     public class UpdatePasswordDTO //: IdentityUser
     {
-        [Required]
-        public string Id { get; set; }
+        //[Required]
+        //public string Id { get; set; }
 
         [Required]
         public string CurrentPassword { get; set; }

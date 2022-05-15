@@ -20,3 +20,13 @@
 2022-05-12 12:40:27.852 +01:00 [INF] Application starting up
 2022-05-12 15:51:32.995 +01:00 [INF] Application starting up
 2022-05-13 23:39:07.971 +01:00 [INF] Application starting up
+2022-05-15 02:27:09.696 +01:00 [INF] Application starting up
+2022-05-15 20:34:52.471 +01:00 [INF] Application starting up
+2022-05-15 20:38:13.098 +01:00 [INF] Application starting up
+2022-05-15 20:45:03.354 +01:00 [INF] Application starting up
+2022-05-15 21:08:10.823 +01:00 [INF] Application starting up
+2022-05-15 21:13:26.075 +01:00 [INF] Application starting up
+2022-05-15 21:22:14.778 +01:00 [INF] Application starting up
+2022-05-15 21:40:35.207 +01:00 [INF] Application starting up
+2022-05-15 21:41:45.305 +01:00 [INF] Application starting up
+2022-05-15 21:44:25.309 +01:00 [INF] Application starting up

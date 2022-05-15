@@ -9,6 +9,6 @@ namespace RentalCarCore.Interfaces
 {
     public interface IUserServices
     {
-        Task<Response<string>> UpdateUserDetails(UpdateUserDto updateUserDto);
+        Task<Response<string>> UpdateUserDetails(string Id, UpdateUserDto updateUserDto);
     }
 }

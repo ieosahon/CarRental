@@ -7,6 +7,6 @@ namespace RentalCarCore.Interfaces
     {
         Task<Response<UserResponseDto>> Login(UserRequestDto userRequestDto);
 
-        Task<Response<string>> UpdatePasswordAsync(UpdatePasswordDTO updatePasswordDto);
+        Task<Response<string>> UpdatePasswordAsync(string Id, UpdatePasswordDTO updatePasswordDto);
     }
 }

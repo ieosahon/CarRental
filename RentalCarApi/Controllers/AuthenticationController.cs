@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using RentalCarCore.Dtos;
 using RentalCarCore.Interfaces;
 using System;
+using System.Security.Claims;
 using System.Threading.Tasks;
 
 namespace RentalCarApi.Controllers
@@ -35,10 +36,11 @@ namespace RentalCarApi.Controllers
             }
         }
 
-        [HttpPost]
+        [HttpPut]
         [Route("Update-password")]
-        public async Task<IActionResult> UpdatePassword(UpdatePasswordDTO updatePasswordDto)
+        public async Task<IActionResult> UpdatePassword(string Id, UpdatePasswordDTO updatePasswordDto)
         {
+            var userId = HttpContext.User.FindFirst(user => user.Type == ClaimTypes.NameIdentifier).Value;
             try
             {
 
@@ -49,18 +51,13 @@ namespace RentalCarApi.Controllers
 
                 if (ModelState.IsValid)
                 {
-                    var result = await _authentication.UpdatePasswordAsync(updatePasswordDto);
-                    return Ok(result);
+                    var result = await _authentication.UpdatePasswordAsync(userId, updatePasswordDto);
+                    return Ok();
                 }
 
                 return BadRequest(ModelState);
 
             }
-            /* catch (Exception ex)
-             {
-                 return new BadRequestObjectResult(ex.Message);
-
-             }*/
             catch (Exception)
             {
                 return StatusCode(StatusCodes.Status500InternalServerError);

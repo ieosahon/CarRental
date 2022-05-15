@@ -16,19 +16,16 @@ namespace RentalCarCore.Implementations
     {
 
         private readonly UserManager<User> _userManager;
-        private readonly ITokenGen _tokenGen;
 
         public UserServices(UserManager<User> userManager)
         {
             _userManager = userManager;
             // _tokenGen = tokenGen;
         }
-        public async Task<Response<string>> UpdateUserDetails(UpdateUserDto updateUserDto)
+        public async Task<Response<string>> UpdateUserDetails(string Id, UpdateUserDto updateUserDto)
         {
-            /*    var user = await _userManager.UpdateAsync();
 
-                throw new NotImplementedException();*/
-            var user = await _userManager.FindByIdAsync(updateUserDto.Id);
+            var user = await _userManager.FindByIdAsync(Id);
 
             if (user != null)
             {
@@ -46,7 +43,12 @@ namespace RentalCarCore.Implementations
                         Message = "Profile updated"
                     };
                 }
-                throw new Exception("Update operation failed");
+                return new Response<string>()
+                {
+                    IsSuccessful = false,
+                    Message = "Profile not updated"
+                };
+                //throw new Exception("Update operation failed");
             }
 
             throw new ArgumentException("User not found");

@@ -55,9 +55,9 @@ namespace RentalCarCore.Services
             throw new AccessViolationException("Invalid Credentails");
         }
 
-        public async Task<Response<string>> UpdatePasswordAsync(UpdatePasswordDTO updatePasswordDto)
+        public async Task<Response<string>> UpdatePasswordAsync(string Id, UpdatePasswordDTO updatePasswordDto)
         {
-            var user = await _userManager.FindByIdAsync(updatePasswordDto.Id);
+            var user = await _userManager.FindByIdAsync(Id);
             var comparePassword = await _userManager.CheckPasswordAsync(user, updatePasswordDto.CurrentPassword);
             if (comparePassword)
             {
